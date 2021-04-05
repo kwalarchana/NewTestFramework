@@ -28,6 +28,7 @@ public class BaseClass {
 	public ExtentTest logger;
 
 	@BeforeSuite
+	//test comments
 	public void setUpSuite() {
 		Reporter.log("Setting up reports and test is getting ready", true);
 		excel = new ExcelDataProvider();
